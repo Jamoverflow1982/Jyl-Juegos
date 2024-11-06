@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Protest+Strike&family=Ysabeau+Infant:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&family=Protest+Strike&family=Ysabeau+Infant:ital,wght@1,600&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -52,30 +52,75 @@ header{
     }
 }
 footer{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    background: linear-gradient(180deg,rgba(0,255,0,0) 0%, #d15eff 90%);
-    height: 20vh;
-    img{
-        width: 15vh;
-    }
-    nav{
-        ul{
-            list-style: none;
-            li{
-                a{
-                    text-decoration: none;
+    .footerCompleto{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background: linear-gradient(180deg,rgba(0,255,0,0) 0%, #d15eff 90%);
+        height: 20vh;
+        h4{
+            font-family: "Playwrite AU TAS", serif;
+            font-size: .8em;
+            color: #d80177;
+        }
+        img{
+            width: 15vh;
+        }
+        nav{
+            ul{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                list-style: none;
+                li{
+                    a{
+                        text-decoration: none;
+                    }
                 }
             }
         }
+        .redes{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .iconosRedes{
+            width: 100%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .fa-instagram{
+            font-size: 3em;
+            color: #ff008c;
+        }
+        .fa-facebook{
+            font-size: 2.5em;
+            color: #3c49ff;
+        }
+        .fa-whatsapp{
+            position: fixed;
+            right: 3vh;
+            bottom: 12vh;
+            font-size: 3em;
+            color: #5dbd04;
+            backdrop-filter: blur(10px);
+        }
+        .fa-circle-chevron-up{
+            position: fixed;
+            right: 3vh;
+            bottom: 2vh;
+            font-size: 2.5em;
+            color: #fc1594;
+            backdrop-filter: blur(10px);
+        }
     }
-    .fa-whatsapp{
-        position: fixed;
-        right: 3vh;
-        bottom: 5vh;
-        font-size: 3em;
-        color: #afff2d;
-        backdrop-filter: blur(10px);
+    .finalAutor{
+        font-size: .7em;
+        width: 100%;
+        text-align: left;
+        background-color: #d15eff;
     }
 }
