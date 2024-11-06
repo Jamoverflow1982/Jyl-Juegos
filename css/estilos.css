@@ -51,3 +51,31 @@ header{
         }
     }
 }
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(180deg,rgba(0,255,0,0) 0%, #d15eff 90%);
+    height: 20vh;
+    img{
+        width: 15vh;
+    }
+    nav{
+        ul{
+            list-style: none;
+            li{
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .fa-whatsapp{
+        position: fixed;
+        right: 3vh;
+        bottom: 5vh;
+        font-size: 3em;
+        color: #afff2d;
+        backdrop-filter: blur(10px);
+    }
+}
