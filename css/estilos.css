@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&family=Protest+Strike&family=Ysabeau+Infant:ital,wght@1,600&display=swap');
+@font-face {
+    font-family: ravie;
+    src: url(../assets/fonts/RAVIE.TTF);
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,20 +10,39 @@
     font-family: "Ysabeau Infant", sans-serif;
 }
 body{
-    background-color: #d3b4f0;
+    background-image: url(../assets/img/fondo3.jpg);
+    background-color: #dbbafa;
     font-size: 16px;
 }
 header{
+    background-color: #f7abff9a;
+    font-size: 2em;
+    .navbar-collapse {
+        flex-basis: 1000%;
+        flex-grow: 0;
+        align-items: center;
+    }
+    .navbar>.container-fluid{
+        justify-content: center;
+    }
+    .navbar-nav {
+        --bs-nav-link-color: #d80177;
+        --bs-nav-link-hover-color: #8b024e;
+    }
+    .navbar-nav .nav-link.active {
+        color: #8b024e;
+    }
+    /*z-index: 1000;
+    top: 0;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 35vh;
-    background: #d15eff;
-    background: linear-gradient(180deg,#d15eff 0%, rgba(0,255,0,0) 90%);
+    height: 25vh;
+    /*background: #d15eff;
+    background: linear-gradient(180deg,#b701ff 0%, #b701ff38 100%);
     position: sticky;
     img{
-        height: 25vh;
+        height: 20vh;
     }
     nav{
         ul{
@@ -37,17 +60,89 @@ header{
                 width: 32vh;
                 /*background-color: #d892f3;
                 box-shadow: 0px 0px 66px 19px rgba(157,70,224,0.62);;
-                border-radius: 5vh;*/
+                border-radius: 5vh;
                 a{
                     text-decoration: none;
                     text-align: center;
                     font-size: 1.5em;
+                    color: #e4c7ff;
                 }
                 .ancla:hover{
                     font-size: 1.8em;
                     transition: all .5s ease-in-out;
+                    color: #e4c7ff;
                 }
             }
+        }
+    }*/
+}
+main{
+    p{
+        font-size: 1.5rem;
+        padding: 5vh 18vh;
+        padding-bottom: 0;
+        text-align: justify;
+        color:#ff46ac;
+    }
+    h3{
+        font-size: 3em;
+        color: #ff46ac;
+        padding: 0;
+        text-align: center;
+        padding-bottom: 1vh;
+    }
+    .galeria{
+        width: 90%;
+        margin:0 auto;
+        height: 80vh;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border:0.5px solid #b701ff;
+        img{
+            width: 0px;
+            height:100%;
+            flex-grow: 1;/*que dentro de la caja flexible ocupe todo el espacio que pueda*/
+            object-fit: cover;
+            opacity: .7;
+            transition: .5s ease;
+        }
+    }
+    .galeria img:hover{
+        width: 30%;
+        opacity: 1;
+        filter:contrast(140%);
+    }
+    .titulo{
+        padding-top: 5vh;
+        font-family: ravie;
+        font-size: 7em;
+        text-align: center;
+        color: #c23af8;
+    }
+    .subTitulo{
+        font-size: 2em;
+        text-align: center;
+        color: #c23af8;
+    }
+    .secCarousel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5vh;
+    }
+    .divSecCarousel{
+        padding-top: 2vh;
+        margin: 0vh 40vh;
+    }
+    .secCarouselOpiniones{
+        padding-top: 7vh;
+        h3{
+            font-size: 2.5em;
+        }
+        .row{
+        justify-content: center;
         }
     }
 }
@@ -57,7 +152,8 @@ footer{
         justify-content: space-evenly;
         align-items: center;
         background: linear-gradient(180deg,rgba(0,255,0,0) 0%, #d15eff 90%);
-        height: 20vh;
+        height: 30vh;
+        padding-top: 5vh;
         h4{
             font-family: "Playwrite AU TAS", serif;
             font-size: .8em;
@@ -67,11 +163,15 @@ footer{
             width: 15vh;
         }
         nav{
+            padding-top: 4vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             ul{
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
                 align-items: center;
+                padding: 0;
                 list-style: none;
                 li{
                     a{
@@ -122,5 +222,44 @@ footer{
         width: 100%;
         text-align: left;
         background-color: #d15eff;
+    }
+}
+@media screen and (max-width: 767px){
+    *{
+        font-size: 10px;
+    }
+    header{
+        font-size: 2em;
+        img{
+            width: 10vh;
+        }
+        .navbar>.container-fluid{
+            justify-content:space-around;
+        }
+    }
+    main{
+        p{
+            font-size: 1.7em;
+            padding: 5vh 5vh;
+        }
+        .galeria{
+            flex-wrap: wrap;
+        }
+        .galeria img:hover{
+            width: 70%;
+            
+        }
+        .divSecCarousel{
+            margin: 0 1vh;
+            padding-top: 0;
+        }
+        .secCarousel{
+            padding-top: 2vh;
+        }
+        .secCarouselOpiniones{
+            h3{
+                font-size: 1.2em;
+            }
+        }
     }
 }
