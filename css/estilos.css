@@ -130,7 +130,7 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 5vh;
+        padding-top: 2vh;
     }
     .divSecCarousel{
         padding-top: 2vh;
@@ -231,10 +231,21 @@ footer{
         }
     }
     .finalAutor{
-        font-size: .7em;
         width: 100%;
-        text-align: left;
         background-color: #d15eff;
+        a{
+            margin: 0;
+            font-size: .7em;
+            text-align: left;
+            text-decoration: none;
+            color: #000;
+        }
+        .derechos{
+            margin: 0;
+            font-size: 1em;
+            text-align: center;
+            color: #fc1594;
+        }
     }
 }
 @media screen and (max-width: 767px){
@@ -261,6 +272,7 @@ footer{
         p{
             font-size: 1.7em;
             padding: 5vh 5vh;
+            padding-bottom: 0;
         }
         .galeria{
             flex-wrap: wrap;
@@ -349,11 +361,20 @@ footer{
                 }
             }
         }
-        .finalAutor{
-            font-size: .7em;
-            width: 100%;
-            text-align: left;
+        /*.finalAutor{
             background-color: #d15eff;
-        }
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            p{
+                font-size: .7em;
+                text-align: left;
+            }
+            .derechos{
+                font-size: 1em;
+                text-align: center;
+                color: #fc1594;
+            }
+        }*/
     }
 }
