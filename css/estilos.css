@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS:wght@100..400&family=Protest+Strike&family=Ysabeau+Infant:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AU+TAS&family=Protest+Strike&family=Raleway:ital,wght@1,500&family=Ysabeau+Infant:ital,wght@1,800&display=swap');
 @font-face {
     font-family: ravie;
     src: url(../assets/fonts/RAVIE.TTF);
@@ -147,6 +147,52 @@ main{
     }
     .secCarouselOpinionesMobil{
         display: none;
+    }
+    .carouselVenta{
+        margin: 0vh 10vh;
+        h5{
+            text-align: center;
+        }
+        p{
+            padding: 0;
+            font-size: 1rem;
+            text-align: center;
+        }
+        h3{
+            padding-top: 7vh;
+        }
+        .card{
+            background-color: #ffffff8f;
+        }
+        .carousel{
+            padding: 0vh 15vh;
+        }
+        .carousel-control-next, .carousel-control-prev {
+            width: 5%;
+            background: #c23af8;
+        }
+        .valor{
+            font-family: "Raleway", sans-serif;
+            text-align: center;
+            color:#b701ff;
+            font-size: 2.5rem;
+        }
+        .precio{
+            font-size: 1rem;
+        }
+        .agregarCarrito{
+            --bs-btn-color: #ffffff;
+            --bs-btn-bg: #06bb00;
+            --bs-btn-border-color: #09ff00;
+            --bs-btn-hover-color: #fff;
+            --bs-btn-hover-bg:#08cc01;
+            --bs-btn-hover-border-color: #09ff00;
+        }
+        .card-footer{
+            display: flex;
+            justify-content:space-evenly;
+
+        }
     }
 }
 footer{
