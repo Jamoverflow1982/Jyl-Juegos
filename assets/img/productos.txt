@@ -1,0 +1,153 @@
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!--Primer pagina-->
+                    <div class="carousel-item active">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                <img src="./assets/img/productos/rn52cm.webp" class="card-img-top" alt="bebote 52 centimetros">
+                                <div class="card-body">
+                                    <h5 class="card-title">Bebe Rn Nena O Varon 52 Cm Igual Los De Verdad</h5>
+                                    <p class="card-text">NO TIENEN SEXO DEFINIDO... se distingue por su color de ropa... IGUAL A LOS DE VERDAD!!! Con ombligo igual a un bebe...</p>
+                                    <p class="valor"><span class="precio">PRECIO  </span>$ 43.000</p>
+                                </div>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary agregarCarrito">Agregar al Carrito</a>
+                                    <a href="#" class="btn btn-primary comprar">Comprar Ahora</a>
+                                </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="./assets/img/productos/vestidolila.webp" class="card-img-top" alt="bebote nena 40 centimetros">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Vestidos Ropita Para Bebotes Muñecas 40 Cm Divinos</h5>
+                                        <p class="card-text">ROPA PARA BEBOTES Y MUÑECAS DE 40 CM Confeccionadas en tela de calidad igual a las ropitas de verdad! ROPITAS MARCA JYL JUEGOS (taller propio)</p>
+                                        <p class="valor"><span class="precio">PRECIO  </span>$ 4.000</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary agregarCarrito">Agregar al Carrito</a>
+                                        <a href="#" class="btn btn-primary comprar">Comprar Ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="./assets/img/productos/rn48cmconsexo.webp" class="card-img-top" alt="bebote 52 centimetros">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bebes Recién Nacidos Con Sexo 48cm! Igual A Los De Verdad</h5>
+                                        <p class="card-text">BEBES RECIEN NACIDOS CON SEXO NENA! 48 CM... IGUAL A LOS DE VERDAD!!! Con ombligo igual a un bebe...</p>
+                                        <p class="valor"><span class="precio">PRECIO  </span>$ 38.000</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary agregarCarrito">Agregar al Carrito</a>
+                                        <a href="#" class="btn btn-primary comprar">Comprar Ahora</a>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Segunada pagina-->
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="./assets/img/productos/rn52cm.webp" class="card-img-top" alt="bebote 52 centimetros">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bebes Reales Sexo Nena Gordita Básica 40 Cm</h5>
+                                        <p class="card-text">GORDITA CON ROPA BÁSICA (sexo definido)(OJOS CELESTES O MARRONES SEGÚN STOCK) Se entrega con gorro,body,pañal,chupete, y certificado nacimiento.</p>
+                                        <p class="valor"><span class="precio">PRECIO  </span>$ 26.000</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary agregarCarrito">Agregar al Carrito</a>
+                                        <a href="#" class="btn btn-primary comprar">Comprar Ahora</a>
+                                    </div>
+                                    </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="./assets/img/productos/gordita40cmbasica.webp" class="card-img-top" alt="bebote nena 40 centimetros">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bebes Reales Sexo Nena Gordita Básica 40 Cm</h5>
+                                        <p class="card-text">GORDITA CON ROPA BÁSICA (sexo definido)(OJOS CELESTES O MARRONES SEGÚN STOCK) Se entrega con gorro,body,pañal,chupete, y certificado nacimiento.</p>
+                                        <p class="valor"><span class="precio">PRECIO  </span>$ 26.000</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary agregarCarrito">Agregar al Carrito</a>
+                                        <a href="#" class="btn btn-primary comprar">Comprar Ahora</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="./assets/img/productos/rn52cm.webp" class="card-img-top" alt="bebote 52 centimetros">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bebe Rn Nena O Varon 52 Cm Igual Los De Verdad</h5>
+                                        <p class="card-text">NO TIENEN SEXO DEFINIDO... se distingue por su color de ropa... IGUAL A LOS DE VERDAD!!! Con ombligo igual a un bebe...</p>
+                                        <p class="valor"><span class="precio">PRECIO  </span>$ 43.000</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary agregarCarrito">Agregar al Carrito</a>
+                                        <a href="#" class="btn btn-primary comprar">Comprar Ahora</a>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Tercer pagina-->
+                    <div class="carousel-item">
+                        <div class="row row-cols-1 row-cols-md-3 g-4">
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="./assets/img/productos/rn52cm.webp" class="card-img-top" alt="bebote 52 centimetros">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bebe Rn Nena O Varon 52 Cm Igual Los De Verdad</h5>
+                                        <p class="card-text">NO TIENEN SEXO DEFINIDO... se distingue por su color de ropa... IGUAL A LOS DE VERDAD!!! Con ombligo igual a un bebe...</p>
+                                        <p class="valor"><span class="precio">PRECIO  </span>$ 43.000</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary agregarCarrito">Agregar al Carrito</a>
+                                        <a href="#" class="btn btn-primary comprar">Comprar Ahora</a>
+                                    </div>
+                                    </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="./assets/img/productos/rn52cm.webp" class="card-img-top" alt="bebote 52 centimetros">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bebe Rn Nena O Varon 52 Cm Igual Los De Verdad</h5>
+                                        <p class="card-text">NO TIENEN SEXO DEFINIDO... se distingue por su color de ropa... IGUAL A LOS DE VERDAD!!! Con ombligo igual a un bebe...</p>
+                                        <p class="valor"><span class="precio">PRECIO  </span>$ 43.000</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary agregarCarrito">Agregar al Carrito</a>
+                                        <a href="#" class="btn btn-primary comprar">Comprar Ahora</a>
+                                    </div>
+                                    </div>
+                            </div>
+                            <div class="col">
+                                <div class="card h-100">
+                                    <img src="./assets/img/productos/rn52cm.webp" class="card-img-top" alt="bebote 52 centimetros">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bebe Rn Nena O Varon 52 Cm Igual Los De Verdad</h5>
+                                        <p class="card-text">NO TIENEN SEXO DEFINIDO... se distingue por su color de ropa... IGUAL A LOS DE VERDAD!!! Con ombligo igual a un bebe...</p>
+                                        <p class="valor"><span class="precio">PRECIO  </span>$ 43.000</p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <a href="#" class="btn btn-primary agregarCarrito">Agregar al Carrito</a>
+                                        <a href="#" class="btn btn-primary comprar">Comprar Ahora</a>
+                                    </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+                </div>

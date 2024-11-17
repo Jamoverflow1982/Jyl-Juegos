@@ -148,6 +148,9 @@ main{
     .secCarouselOpinionesMobil{
         display: none;
     }
+    .carouselVentaCelular{
+        display: none;
+    }
     .carouselVenta{
         margin: 0vh 10vh;
         h5{
@@ -155,14 +158,26 @@ main{
         }
         p{
             padding: 0;
-            font-size: 1rem;
+            font-size: .8rem;
             text-align: center;
         }
         h3{
             padding-top: 7vh;
         }
+        img{
+            height: 30vh;
+            width: auto;
+            object-fit: cover;
+        }
+        .row-cols-1{
+            height: 75vh;
+        }
         .card{
             background-color: #ffffff8f;
+        }
+        .card-body {
+            flex:auto;
+            padding: 0 1vh;
         }
         .carousel{
             padding: 0vh 15vh;
@@ -175,7 +190,7 @@ main{
             font-family: "Raleway", sans-serif;
             text-align: center;
             color:#b701ff;
-            font-size: 2.5rem;
+            font-size: 1.8rem;
         }
         .precio{
             font-size: 1rem;
@@ -191,7 +206,11 @@ main{
         .card-footer{
             display: flex;
             justify-content:space-evenly;
-
+        }
+        .flexDistr{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
         }
     }
 }
@@ -336,6 +355,73 @@ footer{
         }
         .secCarouselOpinionesPc{
             display: none;
+        }
+        .carouselVenta{
+            display: none;
+        }
+        .carouselVentaCelular{
+            display: flex;
+            flex-direction: column;
+            margin: 0vh 1vh;
+            h5{
+                text-align: center;
+            }
+            p{
+                padding: 0;
+                font-size: .8rem;
+                text-align: center;
+            }
+            h3{
+                padding-top: 7vh;
+            }
+            img{
+                height: 30vh;
+                width: auto;
+                object-fit: cover;
+            }
+            /*.row-cols-1{
+                height: 75vh;
+            }*/
+            .card{
+                background-color: #ffffff8f;
+            }
+            .card-body {
+                flex:auto;
+                padding: 0 1vh;
+            }
+            .carousel{
+                padding: 0vh 5vh;
+            }
+            .carousel-control-next, .carousel-control-prev {
+                width: 10%;
+                background: #c23af8;
+            }
+            .valor{
+                font-family: "Raleway", sans-serif;
+                text-align: center;
+                color:#b701ff;
+                font-size: 1.8rem;
+            }
+            .precio{
+                font-size: 1rem;
+            }
+            .agregarCarrito{
+                --bs-btn-color: #ffffff;
+                --bs-btn-bg: #06bb00;
+                --bs-btn-border-color: #09ff00;
+                --bs-btn-hover-color: #fff;
+                --bs-btn-hover-bg:#08cc01;
+                --bs-btn-hover-border-color: #09ff00;
+            }
+            .card-footer{
+                display: flex;
+                justify-content:space-evenly;
+            }
+            .flexDistr{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
         }
         .secCarouselOpinionesMobil{
             display: flex;
