@@ -575,27 +575,30 @@ footer{
                 justify-content: center;
             }
             .card{
-                width: 40vh;
+                width: 50vh;
                 h5{
                     font-size: 2rem;
+                }
+                p{
+                    font-size: 1.5rem;
                 }
                 img{
                     height: 30vh;
                 }
                 .valor{
-                font-size: 3rem;
-            }
+                    font-size: 3rem;
+                }
             }
             .card-body {
                 padding: 0 0vh;
-                height: 25vh;
+                height: 30vh;
             }
             .card-footer{
                 flex-direction: column;
                 justify-content: center;
             }
             .btn-primary{
-                margin: .8vh;
+                margin: 1vh;
                 font-size: 1.5rem;
             }
         }
