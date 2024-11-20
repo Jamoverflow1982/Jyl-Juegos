@@ -373,6 +373,7 @@ footer{
             color: #3c49ff;
         }
         .fa-whatsapp{
+            z-index: 1000;
             position: fixed;
             right: 3vh;
             bottom: 12vh;
@@ -381,6 +382,7 @@ footer{
             backdrop-filter: blur(10px);
         }
         .fa-circle-chevron-up{
+            z-index: 1000;
             position: fixed;
             right: 3vh;
             bottom: 2vh;
@@ -441,6 +443,9 @@ footer{
             font-size: 1.7em;
             padding: 5vh 5vh;
             padding-bottom: 0;
+        }
+        .galeriaInicio{
+            display: none;
         }
         .galeria{
             flex-wrap: wrap;
