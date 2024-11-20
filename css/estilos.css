@@ -571,13 +571,20 @@ footer{
         .listaProductos{
             .bebotes, .accesorios{
                 padding: 1vh 1vh;
+                flex-direction: column;
                 justify-content: center;
             }
             .card{
-                width: 20vh;
-                img{
-                    height: 18vh;
+                width: 40vh;
+                h5{
+                    font-size: 2rem;
                 }
+                img{
+                    height: 30vh;
+                }
+                .valor{
+                font-size: 3rem;
+            }
             }
             .card-body {
                 padding: 0 0vh;
@@ -588,8 +595,8 @@ footer{
                 justify-content: center;
             }
             .btn-primary{
-                margin: .5vh;
-                font-size: 1rem;
+                margin: .8vh;
+                font-size: 1.5rem;
             }
         }
     }
