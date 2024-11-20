@@ -380,6 +380,7 @@ footer{
             font-size: 3em;
             color: #5dbd04;
             backdrop-filter: blur(10px);
+            border-radius: 5vh;
         }
         .fa-circle-chevron-up{
             z-index: 1000;
@@ -389,6 +390,7 @@ footer{
             font-size: 2.5em;
             color: #fc1594;
             backdrop-filter: blur(10px);
+            border-radius: 5vh;
         }
         .btnMailDir{
             display: flex;
