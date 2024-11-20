@@ -575,7 +575,7 @@ footer{
                 justify-content: center;
             }
             .card{
-                width: 50vh;
+                width: 95%;
                 h5{
                     font-size: 2rem;
                 }
