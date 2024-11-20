@@ -283,6 +283,19 @@ main{
                 object-fit: cover;
                 border-radius: 3vh;
             }
+            .valor{
+                margin: 0;
+                color:#8b024e;
+                font-size: 2rem;
+                .precio{
+                    font-size: 1rem;
+                }
+            }
+            .flexDistr{
+                display: flex;
+                flex-direction: column;
+                justify-content:space-between;
+            }
         }
         .card-body {
             padding: 0 1vh;
@@ -538,6 +551,45 @@ footer{
             padding-top: 5vh;
             h3{
                 font-size: 2em;
+            }
+        }
+        .cabeceraProductos{
+            padding: 1vh 0vh;
+            padding-top: 3vh;
+            display: flex;
+            flex-direction:column-reverse;
+            p{
+                margin: 0;
+                padding: 0 5vh;
+                text-align: justify;
+            }
+            img{
+                width: 90%;
+                border-radius: 5vh;
+            }
+        }
+        .listaProductos{
+            .bebotes, .accesorios{
+                padding: 1vh 1vh;
+                justify-content: center;
+            }
+            .card{
+                width: 20vh;
+                img{
+                    height: 18vh;
+                }
+            }
+            .card-body {
+                padding: 0 0vh;
+                height: 25vh;
+            }
+            .card-footer{
+                flex-direction: column;
+                justify-content: center;
+            }
+            .btn-primary{
+                margin: .5vh;
+                font-size: 1rem;
             }
         }
     }
