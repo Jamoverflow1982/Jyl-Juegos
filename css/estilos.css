@@ -77,12 +77,12 @@ header{
     }*/
 }
 main{
-    p{
-        font-size: 1.5rem;
-        padding: 5vh 18vh;
-        padding-bottom: 0;
-        text-align: justify;
-        color:#ff46ac;
+    h1{
+        padding-top: 5vh;
+        font-family: ravie;
+        font-size: 7em;
+        text-align: center;
+        color: #c23af8;
     }
     h3{
         font-size: 3em;
@@ -90,6 +90,20 @@ main{
         padding: 0;
         text-align: center;
         padding-bottom: 1vh;
+    }
+    h6{
+        padding-top: 5vh;
+        font-family: ravie;
+        font-size: 7em;
+        text-align: center;
+        color: #c23af8;
+    }
+    p{
+        font-size: 1.5rem;
+        padding: 5vh 18vh;
+        padding-bottom: 0;
+        text-align: justify;
+        color:#ff46ac;
     }
     .galeria{
         width: 90%;
@@ -116,13 +130,6 @@ main{
         width: 30%;
         opacity: 1;
         filter:contrast(140%);
-    }
-    .titulo{
-        padding-top: 5vh;
-        font-family: ravie;
-        font-size: 7em;
-        text-align: center;
-        color: #c23af8;
     }
     .subTitulo{
         font-size: 2em;
@@ -314,6 +321,49 @@ main{
         }
         .comprar{
             background-color: #6b6eff;
+        }
+    }
+    /*Grid de nosotros*/
+    .nosotrosGrid{
+        height: 150vh;
+        display:grid;
+        grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+        grid-template-rows: 0.3fr 1fr 1fr 0.5fr;
+        grid-template-areas: "nuestro nuestro nuestro nuestro"
+                            "mision imagen imagen calidad"
+                            "creatividad imagen imagen proceso"
+                            "comunidad comunidad comunidad comunidad"
+                            ;
+        p{
+            font-size: 1.5rem;
+            padding: 0 5vh;
+        }
+        .item1{
+            grid-area: nuestro;
+        }
+        .item2{
+            grid-area: mision;
+        }
+        .item3{
+            grid-area: calidad;
+        }
+        .item4{
+            grid-area: creatividad;
+        }
+        .item5{
+            grid-area: proceso;
+        }
+        .item6{
+            grid-area: comunidad;
+        }
+        .item7{
+            grid-area: imagen;
+            display: flex;
+            justify-content: center;
+            img{
+                height: 100%;
+                object-fit: cover;
+            }
         }
     }
 }
