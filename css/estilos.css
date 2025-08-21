@@ -10,8 +10,8 @@
     font-family: "Ysabeau Infant", sans-serif;
 }
 body{
-    background-image: url(../assets/img/fondo3.jpg);
-    background-color: #dbbafa;
+    /*background-image: url(../assets/img/fondo3.jpg);*/
+    background-color: #ffdff5;
     font-size: 16px;
 }
 header{
@@ -303,6 +303,10 @@ main{
                 flex-direction: column;
                 justify-content:space-between;
             }
+            .disponibles-verde{
+            color: #469604;
+            font-size: 1.2rem;
+        }
         }
         .card-body {
             padding: 0 1vh;
@@ -325,9 +329,8 @@ main{
     }
     /*Grid de nosotros*/
     .nosotrosGrid{
-        height: 150vh;
         display:grid;
-        grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+        grid-template-columns: 2fr .7fr .7fr 2fr;
         grid-template-rows: 0.3fr 1fr 1fr 0.5fr;
         grid-template-areas: "nuestro nuestro nuestro nuestro"
                             "mision imagen imagen calidad"
@@ -335,25 +338,51 @@ main{
                             "comunidad comunidad comunidad comunidad"
                             ;
         p{
-            font-size: 1.5rem;
+            text-align: center;
+            font-size: 1.2rem;
             padding: 0 5vh;
         }
         .item1{
+            p{
+                font-size: 1.7rem;
+                padding: 2vh 5vh;
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
             grid-area: nuestro;
         }
         .item2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             grid-area: mision;
         }
         .item3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             grid-area: calidad;
         }
         .item4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             grid-area: creatividad;
         }
         .item5{
+            display: flex;
+            justify-content: center;
+            align-items: center;
             grid-area: proceso;
         }
         .item6{
+            p{
+                font-size: 1.7rem;
+            }
+            display: flex;
+            justify-content: center;
+            align-items: center;
             grid-area: comunidad;
         }
         .item7{
@@ -361,11 +390,58 @@ main{
             display: flex;
             justify-content: center;
             img{
-                height: 100%;
+                width: 100%;
                 object-fit: cover;
+                border-radius: 5px;
+                box-shadow: 0px 0px 10px 10px rgba(245,0,252,0.48);
             }
         }
     }
+    .listaProductos{
+        .sinStock{
+            background-color: #fd7575;
+        }
+    }
+    .crearProducto{
+        .center-div, .botonesInicio{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 2vh 10vh;
+        }
+    }
+    .botonesInicio{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 5vh;
+            padding: 0vh 30vh;
+            .distribBotones{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                align-items: center;
+                .btn{
+                    margin:1vh;
+                    width: 100%
+                }
+            }
+            .buscador{
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                .btn{
+                    width: 50%;
+                    }
+                input{
+                    width: 100%;
+                }
+            }
+        }
 }
 footer{
     .footerCompleto{

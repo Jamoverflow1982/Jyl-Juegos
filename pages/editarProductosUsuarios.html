@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JyL Juegos - Productos</title>
+    <script src="https://kit.fontawesome.com/f5b20c2d74.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estiloDeImpresion.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body id="top">
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../assets/img/chupete.png" alt="Chupete JyL Juegos" width="100">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="text-center">Panel Administrador</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row g-3 botonesInicio">
+            <button type="button" class="btn btn-success" data-bs-toggle="button" id="btnUsuarios">Usuarios</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="button" id="btnProductos">Productos</button>
+            <div class="col-md-3 distribBotones">
+                <button type="button" class="btn btn-primary d-none" data-bs-toggle="button" id="btnListaProductos">Lista de Productos</button>
+                <button type="button" class="btn btn-success d-none" data-bs-toggle="button" id="btnListaUsuarios">Lista de Usuarios</button>
+            </div>
+            <div class="col-md-3 distribBotones">
+                <button type="button" class="btn btn-primary d-none" data-bs-toggle="button" id="btnAgregarProducto">Agregar Producto</button>
+                <button type="button" class="btn btn-success d-none" data-bs-toggle="button" id="btnAgregarUsuario">Agregar Usuario</button>
+            </div>
+            <div class="col-md-6 distribBotones">
+                <div class="buscador">
+                    <input type="text" class="form-control d-none" placeholder="Ingrese el producto a buscar"  aria-describedby="button-addon2" id="inputBuscar">
+                    <button class="btn btn-primary d-none" type="button" id="btnBuscar">Buscar</button>
+                </div>
+                <div class="buscador">
+                    <input type="text" class="form-control d-none" placeholder="Ingrese el usuario a buscar"  aria-describedby="button-addon2" id="inputBuscarUsuario">
+                    <button class="btn btn-success d-none" type="button" id="btnBuscarUsuario">Buscar</button>
+                </div>
+            </div>
+        </div>
+        <section class="container listaProductos" id="listaProductos">
+            <div class="row d-none" id="formularioActualizar">
+            </div>
+            <div class="row d-none" id="tablaCompleta">
+                <h2 id="tituloTabla"></h2>
+                <div class="col-12">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Cod.</th>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Precio</th>
+                                <th scope="col">Stock</th>
+                                <th scope="col">Categoria</th>
+                                <th scope="col">Destacado</th>
+                                <th scope="col">Oferta</th>
+                                <th scope="col">Descuento</th>
+                                <th scope="col">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbodyProductos">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="container listaProductos" id="listaProductos">
+            <div class="row d-none" id="formularioActualizarUsuarios">
+                <!--Aca van los modales de edicion y creacion de usuarios-->
+            </div>
+            <div class="row d-none" id="tablaCompletaUsuarios">
+                <h2 id="tituloTablaUsuarios"></h2>
+                <div class="col-12">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Cod.</th>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Apellido</th>
+                                <th scope="col">Email</th>
+                                <th scope="col">Password</th>
+                                <th scope="col">Es Admin?</th>
+                                <th scope="col">F. Alta</th>
+                                <th scope="col">Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbodyUsuarios">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+        <section class="container crearProducto">
+            <div class="row d-none" id="formularioIngresoProd">
+                <h2>Crear Producto</h2>
+                <form class="row g-3" id="formCrearProd">
+                    <div class="col-md-7">
+                        <label for="inputNombre" class="form-label">Nombre</label>
+                        <input type="text" class="form-control" id="inputNombre">
+                    </div>
+                    <div class="col-md-3">
+                        <label for="inputPrecio" class="form-label">Precio $</label>
+                        <input type="text" class="form-control" id="inputPrecio">
+                    </div>
+                    <div class="col-md-2">
+                        <label for="inputStock" class="form-label">Stock</label>
+                        <input type="text" class="form-control" id="inputStock">
+                    </div>
+                    <div class="mb-3">
+                        <label for="descripcion" class="form-label">Descripcion</label>
+                        <input type="text" class="form-control" id="descripcion">
+                    </div>
+                    <div class="col-md-8">
+                        <label for="imagen" class="form-label">Imagen</label>
+                        <input type="text" class="form-control" id="imagen">
+                    </div>
+                    <div class="col-md-4">
+                        <label for="categoria" class="form-label">Categoria</label>
+                        <select class="form-select" aria-label="Default select example" id="categoria">
+                            <option selected value="Bebote">Bebote</option>
+                            <option value="Accesorio Bebote">Accesorio bebote</option>
+                            <option value="3D">3D</option>
+                            <option value="Varios">Varios</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="destacado" class="form-label">Destacado</label>
+                        <select class="form-select" aria-label="Default select example" id="destacado">
+                            <option selected value="false">No</option>
+                            <option value="true">Si</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="oferta" class="form-label">Oferta</label>
+                        <select class="form-select" aria-label="Default select example" id="oferta">
+                            <option selected value="false">No</option>
+                            <option value="true">Si</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="descuento" class="form-label">Descuento %</label>
+                        <input type="text" class="form-control" id="descuento" value="0">
+                    </div>
+                    <div class="center-div">
+                        <button type="submit" class="btn btn-primary">Guardar</button>
+                        <button type="reset" class="btn btn-danger">Limpiar</button>
+                        <button type="button" class="btn btn-info" id="btn-cancelar">Cancelar</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
+    <script src="../js/botonesEleccion.js"></script>
+    <script src="../js/productosEdicion.js"></script>
+    <script src="../js/usuariosEdicion.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
